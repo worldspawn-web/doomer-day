@@ -1,0 +1,26 @@
+backgrounds:
+  street1: assets/backgrounds/street1.png
+
+characters:
+  doomer:
+    displayName: Doomer
+    speechColour: '#ca90cf'
+    looks:
+      young: assets/characters/doomer_young.png
+      full: assets/characters/doomer_full.png
+
+cgs:
+  phone1: assets/objects/phone_xpress.png
+
+music:
+  rollingCredits: assets/audio/arthas_vika.mp3
+  maxwell: assets/audio/maxwell.mp3
+sfx:
+  ringtoneSFX: assets/audio/ringtone_mayak.mp3
+
+extra:
+  spritesheets:
+    rain: assets/ambient/rain.png 17 17
+    sakura: assets/ambient/sakura-petals.png 17 26
+    snowflakes: assets/ambient/snowflakes.png 17 17
+    snowflakes_large: assets/ambient/snowflakes_large.png 64 64

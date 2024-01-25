@@ -1,0 +1,42 @@
+start:
+  - play maxwell:
+  - show street1: WITH FADE CONTINUE
+  - show doomer: happy AT CENTER WITH FADE
+  - doomer says young: Ну и денёк сегодня выдался...
+  - wait: 300
+  - doomer says: Зайти что-ли за пивком...
+  - choice:
+      - 'Погнали, хуле.':
+          - doomer says: Так и быть, возьму две семёрки...
+      - 'Не, нахуй надо.':
+          - doomer: Правильно, денег и так совсем нет.
+  - doomer says: Как назло ещё и сигарет нет. Твою мать...
+  - doomer says: Ща короче разберусь как в этой хуйне работать и запилим ебейшую историю!
+  - scene: endGame
+
+endGame:
+  - hide ALL:
+  - effect ROLLINGCREDITS:
+    endGame: true
+    text:
+      - RenJS.V2 created by
+      - lunafromthemoon
+      - null
+      - In collaboration with
+      - RockDaFox
+      - null
+      - Inspired by Ren'Py
+      - Powered by PhaserJS
+      - null
+      - null
+      - Thanks for playing
+      - The Quickstart Game
+      - null
+      - background art and cgs by
+      - konett
+      - null
+      - characters by
+      - Shida
+      - null
+      - music by
+      - Evan Schaeffer
